@@ -1,0 +1,46 @@
+/*
+ * @Project     : 创作者计划
+ * @Author      : 狐狸库
+ * @Url         : https://www.huliku.com/
+ * @Qq          : 577669882
+ * @Email       : ihuliku@qq.com
+ * @Remind      : 使用本代码请务必保留以上信息！
+ */
+.huliku-author-content {
+    padding: 25px;
+    background-color: var(--blur-bg);
+    z-index: 1;
+    height: 100%;
+    border-radius: 10px;
+    border: 10px dashed rgb(0 0 0/8%)
+}
+
+.huliku-fw-semibold {
+    font-weight: 600;
+    text-align: center
+}
+
+.huliku-content-int {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #6b6b6b
+}
+
+.huliku-content-int a {
+    color: var(--theme-color)
+}
+
+.huliku-justify-content-between {
+    justify-content: space-between
+}
+
+.huliku-author-join {
+    width: 100%;
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    color: #fff
+}
+
+.huliku-author-more {
+    display: none
+}

@@ -1,0 +1,215 @@
+.home-homevip-boxmk .one-dongtai .one-background-default .b2-radius {
+    border: 2px solid red;
+}
+
+.one-home-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.one-home-title span {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.one-home-title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.one-home-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.one-home-homevip {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.one-container {
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.one-container>:last-child {
+    margin-bottom: 0;
+}
+
+.one-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: -16px;
+}
+
+.one-width-1 {
+    width: calc(25% - 16px);
+    margin-left: 10px;
+}
+
+.one-dongtai {
+    transition: all .3s ease 0s;
+}
+
+.home-homevip-boxmk {
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.home-homevip-boxmk {
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .05);
+    padding: 20px 20px 0;
+    overflow: hidden !important;
+    position: relative;
+}
+
+.home-homevip-boxmk {
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+}
+
+.one-background-default {
+    background-color: var(--main-bg-color);
+}
+
+.home-homevip-boxmk img {
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin: 20px auto 10px auto;
+}
+
+.home-homevip-boxmktitle .price {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.home-homevip-boxmktitle .price strong {
+    font-size: 43px;
+    margin: 0 5px;
+    font-weight: bolder !important;
+    color: red;
+}
+
+.home-homevip-boxmktitle p {
+    font-size: 14px;
+    line-height: 27px;
+    background-color: var(--body-bg-color);
+    color: var(--main-color);
+    border-radius: 50px;
+}
+
+.home-homevip-boxmktitle {
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#Onecad_vips .onecad_vips_title {
+    margin: 0 -20px;
+    padding: 15px 0 15px 10px;
+    text-align: left;
+}
+
+.home-homevip-boxmks li:nth-child(even) {
+    background-color: var(--float-btn-bg);
+}
+
+.home-homevip-boxmks li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 13px;
+    margin: 0 -20px;
+    line-height: 45px;
+    padding: 0 15px;
+}
+
+.home-homevip-boxmks li em,
+.home-homevip-boxmks li em span p {
+    display: flex;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.one-dongtai:hover {
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+}
+
+.one-width-1 {
+    width: calc(25% - 16px);
+    margin-left: 10px;
+}
+
+.vip_tj {
+    position: absolute;
+    top: 15px;
+    right: -40px;
+    overflow: hidden !important;
+    z-index: 1;
+    width: 150px;
+    height: 30px;
+    background: red;
+    color: #fff;
+    line-height: 30px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    font-size: 14px;
+}
+
+.home-homevip-boxmk a {
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 auto 18px;
+    text-align: center;
+    background: linear-gradient(91.51deg, #f4cfa3 .48%, #cd9e66 98.33%);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 44px;
+    letter-spacing: 2.4px;
+    color: #522d00;
+    padding: 8px 16px;
+    transition: opacity .2s;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.onecad_vips_title {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1221px) {
+    .wapnone {
+        display: none;
+    }
+}

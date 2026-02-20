@@ -1,0 +1,166 @@
+        /* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+        @font-face {
+            font-family: 'iconfont';
+            /* Project id 4690939 */
+            src:
+                url('../font/font_4690939_rb2ueo5ug8h.woff2') format('woff2');
+        }
+
+        .wniui-card-info {
+            border-radius: 18px;
+            padding: 0 0 20px;
+            position: relative;
+            overflow: hidden;
+            will-change: transform;
+            width: 100%;
+            height: 380px;
+            background-color: var(--main-bg-color);
+        }
+
+        .wniui-is-center {
+            background: url(../img/wd2b5ca33bd20241229112207.webp);
+            background-position: top;
+            text-align: center;
+            background-size: 120%;
+            background-repeat: no-repeat;
+            padding-top: 30px;
+        }
+
+        .wniui-avatar-img {
+            overflow: hidden;
+            margin: 0 auto;
+            width: 110px;
+            height: 110px;
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+            box-shadow: 2.2px 2.2px 2.2px rgba(10, 207, 233, .3);
+        }
+
+        .wniui-avatar-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .wniui-card-info .wniui-is-center .wniui-author-info__name {
+            font-weight: 800;
+            font-size: 18px;
+            box-sizing: border-box;
+            margin-top: 10px;
+        }
+
+        .wniui-card-info .wniui-author-info__description {
+            margin-top: 5px;
+            font-size: 13.5px;
+        }
+
+        .wniui-card-info-data {
+            padding: 0 24px;
+            margin: 10px 0 4px;
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .wniui-card-info .wniui-card-info-data>.wniui-card-info-data-item {
+            display: table-cell;
+            position: relative;
+        }
+
+        .wniui-card-info-data-item:first-child {
+            left: 1px;
+        }
+
+        .wniui-card-info .wniui-card-info-data>.wniui-card-info-data-item a .wniui-headline {
+            color: var(--main-color);
+            font-size: 1em;
+            overflow: hidden;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: 800;
+        }
+
+        .wniui-card-info .wniui-card-info-data>.wniui-card-info-data-item a .wniui-length-num {
+            margin-top: 0px;
+            color: var(--main-color);
+            font-size: 1.4em;
+        }
+
+        .wniui-card-info-data-item:not(:last-child)::after {
+            opacity: .3;
+            position: absolute;
+            top: 8px;
+            right: 0;
+            content: "";
+            width: 1px;
+            height: 35px;
+            background: var(--main-color)
+        }
+
+        .wniui-card-info #wniui-card-info-btn {
+            margin: 6px 30px 0 30px;
+            border-radius: 20px;
+            display: block;
+            margin-top: 15px;
+            background-color: #49b1f5;
+            color: #fff;
+            text-align: center;
+            line-height: 2.4;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+
+        .wniui-card-info .wniui-card-info-social-icons {
+            margin: 20px 0px;
+            text-align: center;
+        }
+
+        .wniui-card-info .wniui-card-info-social-icons .wniui-social-icon {
+            margin: 0 10px;
+            font-size: 1.4em;
+        }
+
+        .icon-github::before {
+            font-family: 'iconfont';
+            content: '\ea0a';
+        }
+
+        .icon-gitee::before {
+            font-family: 'iconfont';
+            content: '\e601';
+        }
+
+        .icon-bilibili::before {
+            font-family: 'iconfont';
+            content: '\e609';
+        }
+
+        .icon-wangyi::before {
+            font-family: 'iconfont';
+            content: '\e600';
+        }
+
+        .icon-about::before {
+            font-family: 'iconfont';
+            content: '\e649';
+        }
+
+        .wniui-social-icon i {
+            display: inline-block;
+            font-style: normal;
+            font-size: 23px;
+            transition: 0.3;
+        }
+
+        .wniui-social-icon i:hover {
+            transform: scale(1.2) !important;
+            transition: 0.3;
+        }

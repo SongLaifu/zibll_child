@@ -1,0 +1,48 @@
+.huliku-icon-card {
+    justify-content: center;
+    position: relative;
+    min-width: 60px;
+}
+
+.huliku-cover-icon {
+    font-size: 25px;
+    margin: 0 5px;
+    transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.13, 1.34), margin-top 0.3s cubic-bezier(0.25, 0.1, 0.13, 1.34);
+    z-index: 1;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.huliku-icon-card:hover .huliku-cover-icon:hover {
+    transform: scale(1.2) translateY(-5px);
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+}
+
+.huliku-flex .huliku-flex {
+    flex: initial;
+    overflow: hidden;
+}
+
+.huliku-cover-icon:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3.5px;
+    height: 3.5px;
+    background-color: #00000080;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .huliku-icon-card {
+        display: none;
+    }
+}

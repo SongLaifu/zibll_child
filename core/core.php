@@ -14,4 +14,6 @@ if (!function_exists('_child')) {
 zib_require(array(
     'core/options/options', // 配置文件
     'core/functions/functions', // 功能函数
+    'core/functions/widget', // 功能函数
+    'core/functions/page', // 功能函数
 ), true);

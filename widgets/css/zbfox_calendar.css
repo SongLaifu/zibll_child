@@ -1,0 +1,123 @@
+/*
+ * @Project     : 日历小工具
+ * @Author      : 狐狸库
+ * @Url         : https://www.huliku.com/
+ * @Qq          : 577669882
+ * @Email       : ihuliku@qq.com
+ * @Remind      : 使用本代码请务必保留以上信息！
+ */
+.huliku-next-calendar.blue .calendar-dates .current-day {
+    background-color: var(--calendar-color, #2e8fff);
+    color: #fff
+}
+
+.huliku-next-calendar {
+    --calendar-color: var(--theme-color);
+    box-shadow: 0 0 10px var(--main-shadow);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px
+}
+
+.huliku-next-calendar.blue {
+    --calendar-color: #2e8fff
+}
+
+.huliku-next-calendar.grey {
+    --calendar-color: #7f7f7f
+}
+
+.huliku-next-calendar.red {
+    --calendar-color: #f96056
+}
+
+.huliku-next-calendar.green {
+    --calendar-color: #5fce64
+}
+
+.huliku-next-calendar.orange {
+    --calendar-color: #ff9501
+}
+
+.huliku-next-calendar.purple {
+    --calendar-color: #973ac2
+}
+
+.huliku-next-calendar .calendar-header {
+    background-color: var(--calendar-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    z-index: 1;
+    position: relative
+}
+
+.huliku-next-calendar .calendar-header .calendar-title {
+    font-size: 25px;
+    padding-left: 20px
+}
+
+.huliku-next-calendar .calendar-header .calendar-header-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    padding-right: 10px
+}
+
+.huliku-next-calendar .calendar-header .img-calendar-header-1 {
+    position: absolute;
+    left: -220px;
+    top: -60px;
+    max-width: 99999%;
+    max-height: 99999%
+}
+
+.huliku-next-calendar .calendar-header .img-calendar-header-2 {
+    position: absolute;
+    left: -44px;
+    max-width: 99999%;
+    max-height: 99999%
+}
+
+.huliku-next-calendar .calendar-header .img-calendar-header-3 {
+    position: absolute;
+    left: -170px;
+    bottom: -90px;
+    max-width: 99999%;
+    max-height: 99999%
+}
+
+.huliku-next-calendar .calendar-header .calendar-month-week {
+    text-align: right
+}
+
+.huliku-next-calendar .calendar-header .calendar-current-day {
+    font-size: 48px
+}
+
+.huliku-next-calendar .calendar-main {
+    position: relative;
+    background-color: var(--main-bg-color);
+    padding: 10px;
+    z-index: 2
+}
+
+.huliku-next-calendar .calendar-body-header ul {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    flex-wrap: wrap
+}
+
+.huliku-next-calendar .calendar-body-header ul li {
+    text-align: center;
+    padding: 2px 0
+}
+
+.huliku-next-calendar .calendar-body-header .calendar-current-day {
+    background-color: var(--calendar-color);
+    color: #fff;
+    border-radius: 4px
+}

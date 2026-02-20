@@ -1,0 +1,78 @@
+/*
+ * @Project     : 随机图片一言
+ * @Author      : 狐狸库
+ * @Url         : https://www.huliku.com/
+ * @Qq          : 577669882
+ * @Email       : ihuliku@qq.com
+ * @Remind      : 使用本代码请务必保留以上信息！
+ */
+.wiiuii-suiji-main span {
+    color: #fff
+}
+
+.wiiuii-suiji-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    height: 320px;
+    border-radius: var(--main-radius);
+    position: relative;
+    margin-bottom: 20px
+}
+
+.wiiuii-suiji-header {
+    display: flex;
+    justify-content: space-between
+}
+
+.xingyu-dt-ty {
+    padding: 20px;
+    display: flex;
+    flex-direction: column
+}
+
+.xingyu-dt-day {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff
+}
+
+.xingyu-sj-date {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff
+}
+
+.xingyu-sjzt-ty {
+    line-height: 25px;
+    height: 200px;
+    writing-mode: vertical-rl;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px
+}
+
+.xingyu-sj-qhbtn {
+    position: absolute;
+    bottom: 30px;
+    padding: 10px
+}
+
+.xingyu-sj-qhbtn>span>i {
+    font-size: 16px
+}
+
+.xingyu-sj-qhbtn span:hover {
+    color: #f44336
+}
+
+.xingyu-sjtitle-ty {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px
+}

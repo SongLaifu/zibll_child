@@ -1,0 +1,87 @@
+/*统计小模块*/
+.widget_Websitestat h3 {
+    font-weight: 700;
+}
+
+.widgest-boys {
+    overflow: hidden;
+}
+
+.widgest-boys .widgest-bg {
+    margin: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.widgest-boys .widgest-main {
+    align-items: center;
+    place-content: flex-start space-around;
+    display: flex;
+}
+
+.widgest-boys .widgest-meat {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 700 !important;
+    line-height: 1.5 !important;
+}
+
+.widgest-bg:not(article) {
+    transition: all 0.3s;
+}
+
+.widgest-bg:not(article):hover {
+    transform: translateX(-10px);
+}
+
+/*图片路径设置*/
+.widgest-bg1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/1.jpg);
+}
+
+.widgest-bg2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/2.jpg);
+}
+
+.widgest-bg3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/3.jpg);
+}
+
+.widgest-bg4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/4.jpg);
+}
+
+.widgest-bg5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/5.jpg);
+}
+
+.widgest-bg6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/6.jpg);
+}
+
+.widgest-bg7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/7.jpg);
+}
+
+.widgest-bg8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/8.jpg);
+}
+
+.widgest-bg9 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/9.jpg);
+}
+
+.widgest-bg10 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/10.jpg);
+}
+
+.widgest-bg11 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/11.jpg);
+}

@@ -32,3 +32,10 @@ function wp_maintenance_mode() {
 
 // 将上述函数挂钩到WordPress的get_header动作上
 add_action('get_header', 'wp_maintenance_mode');
+
+
+// 自定义字体样式
+function Custom_Font(){
+    echo "<style>@font-face{font-family:'moe';src:url(/wp-content/themes/zibll_child/fonts/HYTMR-55.woff2)}body{font-family:'moe'}</style>";
+}
+add_action('wp_head','Custom_Font');

@@ -1,0 +1,147 @@
+[id^="cdw_"] .countdown-panel {
+    background: var(--cd-bg, #43a047);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+[id^="cdw_"] .countdown-decoration {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+[id^="cdw_"] .promotion-header {
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+[id^="cdw_"] .promotion-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+[id^="cdw_"] .promotion-desc {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+    opacity: 0.95;
+}
+
+[id^="cdw_"] .countdown-display {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+[id^="cdw_"] .time-block {
+    min-width: 65px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 8px 0;
+}
+
+[id^="cdw_"] .time-value {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    background: white;
+    color: #2e7d32;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+[id^="cdw_"] .time-label {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+[id^="cdw_"] .promotion-image {
+    display: block;
+    margin: 0 auto 12px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+[id^="cdw_"] .pricing-info {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+[id^="cdw_"] .original-price {
+    text-align: center;
+    font-family: "黑体", SimHei, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #333;
+    text-decoration: line-through;
+    margin-bottom: 10px;
+}
+
+[id^="cdw_"] .discount-price {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    color: #ffff00;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+[id^="cdw_"] .discount-price::before {
+    content: "特价:";
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+[id^="cdw_"] .discount-price::after {
+    content: "元";
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+[id^="cdw_"] .buy-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right, #ff5722, #ff7043);
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.4);
+    transition: all 0.3s;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+[id^="cdw_"] .buy-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 87, 34, 0.6);
+    background: linear-gradient(to right, #ff7043, #ff8a65);
+}

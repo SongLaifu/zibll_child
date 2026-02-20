@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+/* 主页卡片阴影 */
+.card-widget {
+    box-shadow: 0 8px 16px -4px #2c2d300c;
+    background: #fff;
+    border: 1px solid #e3e8f7;
+    transition: 0.3s;
+    border-radius: 12px;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+    padding: 1rem 1.2rem;
+}
+
+
+/* 微信公众号翻转 */
+#flip-wrapper {
+    position: relative;
+    width: 235px;
+    height: 110px;
+    z-index: 1;
+}
+
+#flip-content {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: cubic-bezier(0, 0, 0, 1.29) 0.3s;
+}
+
+#flip-wrapper:hover #flip-content {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: url(../img/wechatface.webp) center center no-repeat;
+    background-size: 100%;
+}
+
+.back.face {
+    display: block;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    background: url(../img/wx_gzh.png) center center no-repeat;
+    background-size: 100%;
+}
+
+
+
+/* 微信公众号背景 */
+.card-widget#card-wechat::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../img/gzh_cover.webp) center center no-repeat;
+    content: '';
+}
+
+.card-widget#card-wechat {
+    background: #57bd6a;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    height: 110px;
+}
+
+.card-widget#card-wechat img {
+    max-height: 110px;
+    object-fit: cover;
+}
+
+.friend-link {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,125 @@
+.posts-item.card:last-child {
+    margin-bottom: 8px !important
+}
+
+.training-camp__wrapper .header__title-wrapper {
+    font-size: 25px
+}
+
+.sec-wrapper {
+    margin-bottom: 10px
+}
+
+.training-camp__wrapper .header__title-wrapper {
+    color: #4e5358;
+}
+
+.training-camp__wrapper {
+    background-image: linear-gradient(150deg, #cff0fb 20%, #cbf4e4 40%);
+    padding: 0 12px 12px;
+    border-radius: 16px
+}
+
+button.button---AUM5ZP.text---pn4pHz.medium---OGt5iw.header__btn {
+    background: #ffffff00;
+    border: 1px solid #fc3c2d00;
+    border-radius: 0px
+}
+
+.training-camp__wrapper .training-camp__header {
+    padding: 24px 0 24px 12px;
+    display: -webkit-flex;
+    display: flex;
+    background: url(../img/kuangwenlu.png) 100% 0/433px 126px no-repeat
+}
+
+.training-camp__wrapper .header__title-wrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.training-camp__wrapper .title__img-wrapper {
+    height: 20px
+}
+
+.training-camp__wrapper .header__btn-wrapper {
+    margin-left: auto;
+    display: -webkit-flex;
+    display: flex
+}
+
+.training-camp__wrapper .header__btn-wrapper button[class*=button---] {
+    height: 20px;
+    line-height: 20px;
+    padding: 0 12px
+}
+
+.training-camp__wrapper .header__btn {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 18px;
+    color: #22ab80
+}
+
+.medium---OGt5iw {
+    height: 36px;
+    padding: 8px 24px;
+    font-size: 14px
+}
+
+.outlined---BKvHAe,
+.text---pn4pHz {
+    background-color: initial;
+    color: #3e454d
+}
+
+.button---AUM5ZP {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    padding: 8px 24px;
+    border-radius: 22px;
+    cursor: pointer;
+    border: unset;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.ke-icon---zeGrGg+i {
+    display: inline-block;
+    vertical-align: middle
+}
+
+/* .training-camp__wrapper>div.sec-bd {
+    background-color: var(--body-bg-color)
+} */
+
+.sec-wrapper .sec-bd {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.training-camp__wrapper .sec-bd {
+    border-radius: 16px
+}
+
+img.title-macyingyong {
+    height: 26px;
+}
+
+/* .posts-item.card {
+    padding: 35px 10px 10px 10px !important
+} */
+
+.posts-item {
+    position: relative !important
+}

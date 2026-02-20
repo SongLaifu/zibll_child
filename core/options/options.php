@@ -4,7 +4,7 @@
 $prefix = 'child_options';
 
 // 设置图片目录为子主题的路径
-$imagepath = get_stylesheet_directory_uri() . '/img/';
+$imagepath = get_stylesheet_directory() . '/img/';
 
     //开始构建
     CSF::createOptions($prefix, array(
